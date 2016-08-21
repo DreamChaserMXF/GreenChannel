@@ -32,7 +32,7 @@ namespace 绿色通道人数统计
 
         private void SaveData()
         {
-            StreamWriter swriter = new StreamWriter(new FileStream("data.bin", FileMode.Create, FileAccess.Write));
+            StreamWriter swriter = new StreamWriter(new FileStream("data.dat", FileMode.Create, FileAccess.Write));
             swriter.WriteLine(numericUpDown1.Value);
             swriter.WriteLine(numericUpDown2.Value);
             swriter.WriteLine(numericUpDown3.Value);
@@ -51,7 +51,7 @@ namespace 绿色通道人数统计
             try
             {
                 //FileStream file = new FileStream("data.bin", FileMode.Open);
-                StreamReader sreader = new StreamReader(new FileStream("data.bin", FileMode.Open, FileAccess.Read));
+                StreamReader sreader = new StreamReader(new FileStream("data.dat", FileMode.Open, FileAccess.Read));
                 string savedVals = sreader.ReadToEnd();
                 sreader.Close();
 

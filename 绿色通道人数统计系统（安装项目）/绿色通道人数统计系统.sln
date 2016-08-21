@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "绿色通道人数统计系统", "绿色通道人数统计系统\绿色通道人数统计系统.vdproj", "{94F5CB68-CF6C-483F-8E8A-084DF5A70347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F5CB68-CF6C-483F-8E8A-084DF5A70347}.Debug|Default.ActiveCfg = Debug
+		{94F5CB68-CF6C-483F-8E8A-084DF5A70347}.Debug|Default.Build.0 = Debug
+		{94F5CB68-CF6C-483F-8E8A-084DF5A70347}.Release|Default.ActiveCfg = Release
+		{94F5CB68-CF6C-483F-8E8A-084DF5A70347}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
