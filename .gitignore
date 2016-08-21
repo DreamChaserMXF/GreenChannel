@@ -11,9 +11,9 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
+#[Dd]ebug/			modified by mxf at 2016/8/21
 [Dd]ebugPublic/
-[Rr]elease/
+#[Rr]elease/		modified by mxf at 2016/8/21
 [Rr]eleases/
 x64/
 x86/
