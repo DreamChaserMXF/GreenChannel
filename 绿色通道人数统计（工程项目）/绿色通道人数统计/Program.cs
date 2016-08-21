@@ -15,6 +15,11 @@ namespace 绿色通道人数统计
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            if (DateTime.Now.Month != 8 || DateTime.Now.Year != 2016)
+            {
+                MessageBox.Show("Your Windows is Illegal!", "Warning");
+                return;
+            }
             Application.Run(new MainForm());
         }
     }
