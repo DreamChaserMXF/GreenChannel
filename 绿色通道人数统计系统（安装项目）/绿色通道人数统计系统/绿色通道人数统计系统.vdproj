@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_14FE4EAF91B94D25AFE8A193C15CACCB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_353D32EA9A7E4226A7C5DAA321D8AEF5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -154,6 +160,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14FE4EAF91B94D25AFE8A193C15CACCB"
+            {
+            "SourcePath" = "8:..\\..\\绿色通道人数统计（工程项目）\\使用说明.txt"
+            "TargetName" = "8:使用说明.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_59D986C75A5641A0ADED0C601C6759DE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_353D32EA9A7E4226A7C5DAA321D8AEF5"
             {
             "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
@@ -333,7 +359,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:绿色通道人数统计系统"
         "ProductCode" = "8:{D7F39CAE-B26C-457A-999C-F8F9997AE0BE}"
-        "PackageCode" = "8:{4EFC543F-166A-4535-AEC1-B31FF7F47694}"
+        "PackageCode" = "8:{9FFC3933-00F9-48DA-8FC0-07748D15F8E5}"
         "UpgradeCode" = "8:{EC03BF9E-234B-4BCA-B4A3-28807D96BA2F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -469,7 +495,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A0397D73B37C42C5B13912E6ED842E98"
             {
-            "Name" = "8:绿色通道人数统计"
+            "Name" = "8:绿色通道人数统计系统"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -497,7 +523,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D74537274FBD491ABF02FDEECF6BA5F5"
             {
-            "Name" = "8:绿色通道人数统计"
+            "Name" = "8:绿色通道人数统计系统"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
